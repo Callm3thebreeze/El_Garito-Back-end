@@ -37,7 +37,7 @@ router.get("/", passport.auth, userController.userDetail)
 
 
  // Discography
- router.put("/artiste/album", passport.auth, albumController.addAlbum) 
+ router.put("/artist/album", passport.auth, albumController.addAlbum) 
 
  // Discography
  router.put("/artist/social", passport.auth, socialController.addSocial) 
